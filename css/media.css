@@ -1,0 +1,73 @@
+@media (max-width: 1200px) {
+    .series-second__cards{
+        justify-content: center;
+        gap: 30px;
+    }
+    .main-title{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-content__txt h1{
+        font-size: 47px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 570px){
+    .header-nav__list{
+        position: fixed;
+        left: 0;
+        top: -100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background: rgba(17, 92, 101, 0.227);
+        gap: 60px;
+        transition: 500ms;
+    }
+
+    
+    .header-nav__list-link{
+            font-size: 30px;
+    }
+    .poop{
+        display: block;
+        font-size: 50px;
+        color: aliceblue;
+    }
+    .series-second__cards-main{
+        background-position: center;
+    }
+    .poop:hover ~ .header-nav__list{
+        top: 0;
+    }
+    .trailer img{
+        width: 100%;
+    }
+    
+    .btn{
+        padding: 14px 22px;
+        margin-right: 20px;
+    }
+    
+    .header-content__txt h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .header-content{
+            background: url(https://m.media-amazon.com/images/M/MV5BZDg0OGM1NWEtNDEwOC00OTE2LTliZWEtNzg1MTZkNjFlMmNhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_FMjpg_UX1000_.jpg) rgba(7, 15, 25, 0.75);
+            background-position: center;
+            background-size: cover;
+        }
+        .series-second__cards-mini div{
+            width: 100%;
+            height: 360px;
+        };
+    }
